@@ -3,6 +3,7 @@ package com.kroll;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.json.JSONArray;
 import org.json.JSONObject;
+
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -10,6 +11,7 @@ import java.util.List;
 import java.util.logging.ConsoleHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
 public class Main {
 
     private static final Logger LOGGER = Logger.getLogger(Main.class.getName());
@@ -23,8 +25,8 @@ public class Main {
             LOGGER.setLevel(Level.ALL);
 
             ConsoleHandler consoleHandler = new ConsoleHandler();
+            consoleHandler.setFormatter(new CustomLogFormatter());
             consoleHandler.setLevel(Level.ALL);
-            LOGGER.addHandler(consoleHandler);
 
             for (String endpoint : ENDPOINTS) {
                 String apiUrl = BASE_URL + endpoint;
@@ -36,6 +38,7 @@ public class Main {
 
             try (FileOutputStream fileOut = new FileOutputStream("products_data.xlsx")) {
                 workbook.write(fileOut);
+                LOGGER.info("Data written to Excel file successfully");
             }
 
             workbook.close();
@@ -99,6 +102,7 @@ public class Main {
             }
         }
     }
+
     private static List<String> getColumnNames(JSONObject jsonObject) {
         List<String> columnNames = new ArrayList<>();
         for (String key : jsonObject.keySet()) {
