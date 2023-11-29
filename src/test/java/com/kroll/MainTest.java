@@ -3,7 +3,7 @@ package com.kroll;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 
-public class AppTest {
+public class MainTest {
 
     @Test
     public void shouldAnswerWithTrue() {
