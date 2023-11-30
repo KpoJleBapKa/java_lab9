@@ -46,19 +46,16 @@ public class Main {
             e.printStackTrace();
         }
     }
-
-    private static JSONArray getDataFromApi(String apiUrl) {
+    public static JSONArray getDataFromApi(String apiUrl) {
         String apiResponse = getApiResponse(apiUrl);
         if (apiResponse != null && !apiResponse.isEmpty()) {
             return new JSONArray(apiResponse);
         }
         return null;
     }
-
     private static String getApiResponse(String apiUrl) {
         return HttpClient.get(apiUrl);
     }
-
     private static void writeToExcel(XSSFWorkbook workbook, String sheetName, JSONArray data) {
         var sheet = workbook.createSheet(sheetName);
 
@@ -102,7 +99,6 @@ public class Main {
             }
         }
     }
-
     private static List<String> getColumnNames(JSONObject jsonObject) {
         List<String> columnNames = new ArrayList<>();
         for (String key : jsonObject.keySet()) {

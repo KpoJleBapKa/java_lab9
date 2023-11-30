@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fef4ad5-9d4a-44cc-a311-a4e354327975" name="Changes" comment="v1.0 adding main func">
+    <list default="true" id="0fef4ad5-9d4a-44cc-a311-a4e354327975" name="Changes" comment="v1.1 repairing logs">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products_data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/products_data.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kroll/CustomLogFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kroll/CustomLogFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kroll/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kroll/HttpClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kroll/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kroll/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kroll/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kroll/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kroll/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kroll/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +34,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2YrFgs6qQOluxt7r7riqGGrbjvh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -39,21 +45,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Загрузки/json-20190722.jar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15039062",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/!Навчання/Java/програми/powermock-module-junit4-1.5.1.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15332031&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,11 +77,20 @@
       <option name="project" value="LOCAL" />
       <updated>1701280082210</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="v1.1 repairing logs">
+      <option name="closed" value="true" />
+      <created>1701281533198</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701281533198</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v1.0 adding main func" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.0 adding main func" />
+    <MESSAGE value="v1.1 repairing logs" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.1 repairing logs" />
   </component>
 </project>
